@@ -24,6 +24,21 @@
             android:background="@color/colorAccent"
             android:text="Prev" />
 
+        <TextView
+            android:id="@+id/titleText"
+            text="2021/12"
+            android:layout_width="103dp"
+            android:layout_height="39dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="23dp"
+            android:layout_toStartOf="@+id/nextButton"
+            android:layout_toEndOf="@+id/prevButton"
+            android:text="2021/12"
+            android:textColor="@color/blueColor"
+            android:textSize="20sp" />
+
         <Button
             android:id="@+id/nextButton"
             android:layout_width="wrap_content"
